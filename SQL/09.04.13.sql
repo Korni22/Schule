@@ -4,7 +4,7 @@ USE DbLKap09; --Übungsdatenbank auswählen
 --Tabelle Personal löschen -> Vorsicht mit Daten !!!
 DROP TABLE tbl_07bPersonal;
 --Tabelle Personal anlegen
-CREATE TABLE tbl_xxxPersonal
+CREATE TABLE tbl_07bPersonal
 (
 --Attributbezeichner -  Datentyp  - Funktion
    Persnr               INTEGER     PRIMARY KEY,
