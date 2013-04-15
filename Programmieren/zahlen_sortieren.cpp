@@ -2,7 +2,7 @@
 using namespace std;
 
 //Globale Variablen
-long numOne, numTwo, numThree, numFour; 
+long numOne, numTwo, numThree, numFour;
 
 // Das Hauptmenu
 bool menu(){
@@ -10,44 +10,32 @@ bool menu(){
 int SE = 0;
 
 cout << "Hallo!" << endl << "Dieses Programm listet Ihnen 4 Zahlen in aufsteigender Reihenfolge auf" << endl
-	 << "1 = Start" << endl << "2 = Beenden";
+<< "1 = Start" << endl << "2 = Beenden";
 cin >> SE;
 
 if (SE == 1){
-	return true;
+return true;
 }
 else if (SE == 2){
-	return false;
+return false;
 }
 else{
-	return false;
-	menu();
+return false;
+menu();
 }}
 
 // Zahlen eingeben und speichern
 getNumbers(){
-	cout << "Geben Sie nun 4 Zahlen ein" << endl;
-
-
-
+cout << "Geben Sie nun 4 Zahlen ein" << endl;
 }
 
-
-
-
-
+// main beginnt
 int main(){
 
-	if(menu()){
-		getNumbers();
-	}
-	else {
-		exit();
-	}
-
-
-
-
-
-
+if(menu()){
+getNumbers();
+}
+else {
+exit();
+}
 };
