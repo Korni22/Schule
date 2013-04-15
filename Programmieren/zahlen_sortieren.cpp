@@ -43,20 +43,20 @@ bool sortNumbers(){
 
 	for(int i=0; i<2; i++){
 	if(numOne < numTwo){
-		numOne = temp1;
-		numTwo = temp2;
+		temp1 = numOne;
+		temp2 = numTwo;
 		numOne = temp2;
 		numTwo = temp1;
 	}
-	if(numOne < numTwo){
-		numTwo = temp1;
-		numThree = temp2;
+	if(numTwo < numThree){
+		temp1 = numTwo;
+		temp2 = numThree;
 		numTwo = temp2;
 		numThree = temp1;
 	}
-	if(numOne < numTwo){
-		numThree = temp1;
-		numFour = temp2;
+	if(numThree < numFour){
+		temp1 = numThree;
+		temp2 = numFour;
 		numThree = temp2;
 		numFour = temp1;
 	}}
@@ -74,6 +74,7 @@ int main(){
 	}
 	else {
 	}
+	cin >> temp2;
 
 
 
