@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+//Globale Variablen
+long numOne, numTwo, numThree, numFour; 
+
+// Das Hauptmenu
 bool menu(){
 
 int SE = 0;
@@ -14,12 +18,19 @@ if (SE == 1){
 }
 else if (SE == 2){
 	return false;
-	exit();
 }
 else{
 	return false;
 	menu();
 }}
+
+// Zahlen eingeben und speichern
+getNumbers(){
+	cout << "Geben Sie nun 4 Zahlen ein" << endl;
+
+
+
+}
 
 
 
@@ -28,7 +39,10 @@ else{
 int main(){
 
 	if(menu()){
-	
+		getNumbers();
+	}
+	else {
+		exit();
 	}
 
 
