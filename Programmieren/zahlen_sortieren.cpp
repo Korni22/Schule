@@ -10,7 +10,7 @@ bool menu(){
 int SE = 0;
 
 cout << "Hallo!" << endl << "Dieses Programm listet Ihnen 4 Zahlen in aufsteigender Reihenfolge auf" << endl
-   << "1 = Start" << endl << "2 = Beenden";
+	 << "1 = Start" << endl << "2 = Beenden";
 cin >> SE;
 
 if (SE == 1){
@@ -40,14 +40,27 @@ bool getNumbers(){
 
 // Sortieren der eingegebenen Zahlen
 bool sortNumbers(){
+
+	for(int i=0; i<2; i++){
 	if(numOne < numTwo){
-		numbOne = temp1;
-		numbTwo = temp2;
-		numbOne = temp2;
-		numbTwo = temp1;
-
+		numOne = temp1;
+		numTwo = temp2;
+		numOne = temp2;
+		numTwo = temp1;
 	}
-
+	if(numOne < numTwo){
+		numTwo = temp1;
+		numThree = temp2;
+		numTwo = temp2;
+		numThree = temp1;
+	}
+	if(numOne < numTwo){
+		numThree = temp1;
+		numFour = temp2;
+		numThree = temp2;
+		numFour = temp1;
+	}}
+	cout << numOne << " " << numTwo << " " << numThree << " " << numFour << " ";
 	return true;
 }
 
