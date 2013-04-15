@@ -40,7 +40,7 @@ bool getNumbers(){
 
 // Sortieren der eingegebenen Zahlen
 bool sortNumbers(){
-
+ 
 	for(int i=0; i<3; i++){
 	if(numOne < numTwo){
 		temp1 = numOne;
