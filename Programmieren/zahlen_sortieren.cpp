@@ -1,9 +1,9 @@
-Include <iostream>
+#include <iostream>
 using namespace std;
 
 bool mean(){
 
-  int SE = 0;
+	int SE = 0;
 
 	cout << "Hallo" << endl << "Dieses Programm listet 4 Zahlen deren Größe nach auf" << endl
 		 << "1. Starten" << endl "2. Beenden";
@@ -19,4 +19,5 @@ bool mean(){
 
 	else(
 		menu();
-	))
+	)
+}
