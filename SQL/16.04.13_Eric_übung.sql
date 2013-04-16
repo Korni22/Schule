@@ -11,6 +11,16 @@ CREATE TABLE tbl_07buebung
    name              Char(3)     NOT NULL,
    anzahl            Integer     NOT NULL,
 );
+
+--Autoincrement
+CREATE TABLE tbl_07buebung
+(
+--Attributbezeichner -  Datentyp  - Funktion
+   nr                INTEGER     PRIMARY KEY IDENTITY (100, 10),
+   name              Char(3)     NOT NULL,
+   anzahl            Integer     NOT NULL,
+);
+
 --Übungsaufgabe 1 
 --Formulieren Sie zu den folgenden Aufgabenstellung die SQL-II-Statements 
 --Erzeugen Sie die Tabelle Artikel mit den Attributen Nr, Name , Anzahl
@@ -20,13 +30,13 @@ CREATE TABLE tbl_07buebung
 --120 , CCC,   5
 
 Insert INTO tbl_07buebung
-VALUES(100, 'AAA', 10);
+VALUES('AAA', 10);
 
 Insert INTO tbl_07buebung
-VALUES(110, 'BBB', 20);
+VALUES('BBB', 20);
 
 Insert INTO tbl_07buebung
-VALUES(120, 'CCC', 5);
+VALUES('CCC', 5);
 
 --Ändern Sie die Anzahl 20 auf 25
 
