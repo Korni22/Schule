@@ -30,6 +30,9 @@ VALUES(120, 'CCC', 5);
 
 --Ändern Sie die Anzahl 20 auf 25
 
+UPDATE tbl07buebung
+SET anzahl=25 WHERE anzahl=20
+
 --Fügen Sie die Spalte Preis ein
 
 --Füllen Sie Spalte Preis mit :  Nr 100 – 5.00
