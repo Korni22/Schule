@@ -31,7 +31,7 @@ VALUES(120, 'CCC', 5);
 --Ändern Sie die Anzahl 20 auf 25
 
 UPDATE tbl_07buebung
-SET anzahl=25 WHERE anzahl=20
+SET anzahl=25 WHERE anzahl=20;
 
 --Fügen Sie die Spalte Preis ein
 
@@ -42,14 +42,14 @@ ADD preis numeric;
 --Nr 110 – 10.00 
 --Nr 120 – 20.00
 
-Insert INTO tbl_07buebung
-VALUES(100, 'AAA', 10, 5.00);
+UPDATE tbl_07buebung
+SET preis=5.00 WHERE nr=100;
 
-Insert INTO tbl_07buebung
-VALUES(110, 'BBB', 20, 10.00);
+UPDATE tbl_07buebung
+SET anzahl=10.00 WHERE nr=110;
 
-Insert INTO tbl_07buebung
-VALUES(120, 'CCC', 5, 20.00);
+UPDATE tbl_07buebung
+SET anzahl=20.00 WHERE nr=120;
 
 --Erhöhen Sie alle Preise um 10%
 
