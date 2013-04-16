@@ -9,19 +9,19 @@ USE DbLKap09; --Übungsdatenbabk auswählen
 DROP TABLE tbl_ueArtikel08b
 
 CREATE TABLE tbl_ueArtikel08b(
-Nr  INTEGER		PRIMARY KEY,
+Nr  INTEGER		PRIMARY KEY	IDENTITY(100,10),
 Nam	CHAR(3),
 Anzahl	INTEGER,
 );				
 --100 , AAA , 10
 INSERT INTO tbl_ueArtikel08b
-VALUES(100, 'AAA', 10);
+VALUES('AAA', 10);
 --110 , BBB , 20
 INSERT INTO tbl_ueArtikel08b
-VALUES(110, 'BBB', 20);
+VALUES('BBB', 20);
 --120 , CCC,   5
 INSERT INTO tbl_ueArtikel08b
-VALUES(120, 'CCC', 5);
+VALUES('CCC', 5);
 
 --Ändern Sie die Anzahl 20 auf 25
 
