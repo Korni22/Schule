@@ -42,6 +42,15 @@ ADD preis numeric;
 --Nr 110 – 10.00 
 --Nr 120 – 20.00
 
+Insert INTO tbl_07buebung
+VALUES(100, 'AAA', 10, 5.00);
+
+Insert INTO tbl_07buebung
+VALUES(110, 'BBB', 20, 10.00);
+
+Insert INTO tbl_07buebung
+VALUES(120, 'CCC', 5, 20.00);
+
 --Erhöhen Sie alle Preise um 10%
 
 --Löschen Sie die Datensätze mit Nr <120
