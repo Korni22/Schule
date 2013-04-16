@@ -53,4 +53,10 @@ SET anzahl=20.00 WHERE nr=120;
 
 --Erhöhen Sie alle Preise um 10%
 
+UPDATE tbl_07buebung
+SET preis=preis*1.1;
+
 --Löschen Sie die Datensätze mit Nr <120
+
+DELETE FROM tbl_07buebung
+WHERE preis=<120;
