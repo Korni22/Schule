@@ -36,7 +36,7 @@ SET anzahl=25 WHERE anzahl=20
 --Fügen Sie die Spalte Preis ein
 
 ALTER TABLE tbl_07buebung
-ADD preis double
+ADD preis numeric;
 
 --Füllen Sie Spalte Preis mit :  Nr 100 – 5.00
 --Nr 110 – 10.00 
