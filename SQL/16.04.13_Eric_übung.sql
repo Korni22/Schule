@@ -1,7 +1,7 @@
 --Übung(SQL-2 : DDL u. DML)
 USE DbLKap09; --Übungsdatenbabk auswählen
 
-DROP TABLE tbl_07uebung;
+DROP TABLE tbl_07buebung;
 
 --Tabelle Personal anlegen
 CREATE TABLE tbl_07buebung
