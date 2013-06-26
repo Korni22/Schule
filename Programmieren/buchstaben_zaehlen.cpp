@@ -1,33 +1,51 @@
+//Berechnung von Häufigkeiten von Buchstaben in einem Text 
 #include <iostream>
-#include <fstream>  
+#include <fstream>
+#include <string>
+
 using namespace std;
 
+int main()
+  {
 
-//int readFile(ifstream txt){
-//    fstream f;
-//    f.open("test.dat", ios::out);
-//    f << "Dieser Text geht in die Datei" << endl;
-//    f.close();
-//
-//}
+	//Deklaration
+	ifstream fs("test.txt");
+	int counter = 0;
+	int buchstabenzaehler[128];
+	int zeichenwert;
 
-int main(){
+	// Initialisieren der Zählvariablen
+	for (int i = 0; i < 128; i++)
+		buchstabenzaehler[i] = 0;
 
-int a;
+	while (fs.good())
+		{
+		char zeichen = fs.get();
+		if (fs.good())
+			{
+			
+			zeichenwert = int(zeichen);
+			
+			// ... zur Anschauung, sollte wieder entfernt werden
+			cout << "zeichenwert: " << zeichenwert << " -> zeichen: " << zeichen << endl;  
 
-cout << "Ihre Textdatei wird jetzt eingelesen" << endl;
-ifstream txtRead;
-ofstream txtWrite;
-txtRead.open("test.txt", ios_base::in);
+			if ( ((zeichenwert > 64) && (zeichenwert < 91))
+				    || ((zeichenwert > 96) && (zeichenwert < 123)))
+				{
+					counter++;
+					buchstabenzaehler[zeichenwert]++;
+				}
 
-if (!txtRead){
-  cout << "Fehler beim Öffnen der Quelle" << endl;}
-cout << txtRead;
-txtRead.close();
+			}
 
-txtWrite.open("test.txt", ios_base::out);
-txtWrite << "Das ist ein Test";
+		}
 
-cin >> a;
+	// Auswertung - noch zu implementieren
 
-}
+	fs.close();
+	cin.get();
+	cin.get(); 
+
+
+	return 0;
+	}
