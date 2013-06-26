@@ -6,7 +6,7 @@
 using namespace std;
 
 int main()
-  {
+	{
 
 	//Deklaration
 	ifstream fs("test.txt");
@@ -27,7 +27,7 @@ int main()
 			zeichenwert = int(zeichen);
 			
 			// ... zur Anschauung, sollte wieder entfernt werden
-			cout << "zeichenwert: " << zeichenwert << " -> zeichen: " << zeichen << endl;  
+			//cout << "zeichenwert: " << zeichenwert << " -> zeichen: " << zeichen << endl;  
 
 			if ( ((zeichenwert > 64) && (zeichenwert < 91))
 				    || ((zeichenwert > 96) && (zeichenwert < 123)))
@@ -41,6 +41,13 @@ int main()
 		}
 
 	// Auswertung - noch zu implementieren
+	for (int g = 0; g < 128; g++){
+		if (buchstabenzaehler[g] != 0){
+			cout<< "Buchstabe: " << char(g) << " Anzahl: " << buchstabenzaehler[g]<< endl;}
+		else {}
+	}
+
+
 
 	fs.close();
 	cin.get();
