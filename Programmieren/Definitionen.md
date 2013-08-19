@@ -26,3 +26,5 @@ Eine Operation ist eine Aktivität oder Aktion, die ein Objekt bei Erhalt einer 
 ###Definition: **<u>Nachricht/Botschaft</u>**
 
 Eine Nachricht (bzw. das Senden der Nachricht an ein Objekt) ist die Aufforderung an ein Objekt, die entsprechende Operation auszuführen, der das Objekt nachkommen lässt.
+
+###Definition: **<u>Einfamilienhaus</u>**
