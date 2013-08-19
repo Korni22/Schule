@@ -31,7 +31,7 @@ Eine Nachricht (bzw. das Senden der Nachricht an ein Objekt) ist die Aufforderun
 
 Straße, Hausnummer, Ort, Baujahr
 
-###Definition: **<u>Segelflugzeug/Passagierflugzeug/u>**
+###Definition: **<u>Segelflugzeug/Passagierflugzeug</u>**
 
 Größe, Flughöhe, Antriebsart
 
