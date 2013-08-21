@@ -1,8 +1,9 @@
 ##Schauspieler
-|Name|Vorname|Geburtsdatum|Geburtsort|Alter|Auszeichnungen|Größter Erfolg|Operation|
+|Name|Vorname|Geburtsdatum|Geburtsort|Alter|Auszeichnungen|Arbeitsort|Operation|
 |---|---|---|---|---|---|---|---|---|---|
 | | | | | | | |**.INFO** `Name, Vorname, etc.`|
 | | | | | | | |**.changeINFO** (Name, Vorname, etc.)|
+| | | | | | | |**.Aufgaben** `Schauspielschule besuchen, Drehbuch einüben`|
 
 ##Tennisspieler
 |Name|Vorname|Geburtsdatum|Geburtsort|Alter|Auszeichnungen|Größter Erfolg|Operation|
