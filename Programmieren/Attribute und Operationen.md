@@ -1,9 +1,10 @@
 ##Schauspieler
-|Name|Vorname|Geburtsdatum|Geburtsort|Alter|Auszeichnungen|Größter Erfolg|
+|Name|Vorname|Geburtsdatum|Geburtsort|Alter|Auszeichnungen|Größter Erfolg|Operation|
 |---|---|---|---|---|---|---|---|---|---|
-|test|
+| | | | | | | |.INFO|
 
 ##Tennisspieler
-|Name|Vorname|Geburtsdatum|Geburtsort|Alter|Auszeichnungen|Größter Erfolg|
+|Name|Vorname|Geburtsdatum|Geburtsort|Alter|Auszeichnungen|Größter Erfolg|Operation|
 |---|---|---|---|---|---|---|---|---|---|
-|test|
+| | | | | | | |.INFO|
+
