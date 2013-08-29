@@ -36,11 +36,8 @@ Ausleihdatum DATE,
 Rückgabedatum DATE,
 );
 
-drop table tbl_03bbuchtypautor
-create table tbl_03bbuchtypautor
+DROP TABLE tbl_03bbuchtypautor
+CREATE TABLE tbl_03bbuchtypautor
 (
-
-  isbn                  INTEGER ,PRIMARY KEY , FOREIGN KEY to buchtitel(isbn)
- 
-  autornr               INTEGER (PRIMARY KEY, FOREIGN KEY to tbl_03autor(autornr));
-  
+ISBN                  INTEGER ,PRIMARY KEY , FOREIGN KEY to buchtitel(isbn)
+AutorNr               INTEGER (PRIMARY KEY, FOREIGN KEY to tbl_03autor(autornr));
