@@ -39,6 +39,6 @@ Rückgabedatum DATE,
 DROP TABLE tbl_03bbuchtypautor
 CREATE TABLE tbl_03bbuchtypautor
 (
-ISBN        INTEGER ,PRIMARY KEY , FOREIGN KEY to buchtitel(isbn)
+ISBN        INTEGER ,PRIMARY KEY, FOREIGN KEY to buchtitel(isbn)
 AutorNr     INTEGER (PRIMARY KEY, FOREIGN KEY to tbl_03autor(autornr)
 );
