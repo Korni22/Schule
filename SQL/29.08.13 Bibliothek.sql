@@ -16,3 +16,14 @@ ExNr  INTEGER     PRIMARY KEY IDENTITY(100,10),
 ISBN INTEGER,
 Standort Char(15),
 );
+
+CREATE TABLE tbl_ueArtikel07b_Autor(
+AutorNr     INTEGER     PRIMARY KEY IDENTITY(100,10),
+Name        INTEGER,
+Vorname     Char(15),
+GebDatum    DATE,
+TodDatum    DATE,
+Werke       Char (100),
+Beruf       Char (20),
+Wohnort     Char (30),
+);
