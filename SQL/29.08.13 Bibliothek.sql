@@ -1,7 +1,5 @@
 USE dblkap09
 
-CREATE TABLE tbl_07bautor
-
 CREATE TABLE tbl_ueArtikel07b_Buchexemplar(
 ExNr  INTEGER     PRIMARY KEY IDENTITY(100,10),
 ISBN INTEGER,
