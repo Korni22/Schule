@@ -1,8 +1,8 @@
 USE dblkap09
 
 CREATE TABLE tbl_ueArtikel07b_Buchexemplar(
-ExNr  INTEGER     PRIMARY KEY IDENTITY(100,10),
-ISBN INTEGER,
+ExNr        INTEGER     PRIMARY KEY IDENTITY(100,10),
+ISBN        INTEGER,
 Standort Char(15),
 );
 
@@ -39,6 +39,6 @@ Rückgabedatum DATE,
 DROP TABLE tbl_03bbuchtypautor
 CREATE TABLE tbl_03bbuchtypautor
 (
-ISBN        INTEGER ,PRIMARY KEY, FOREIGN KEY to buchtitel(isbn)
+ISBN        INTEGER (PRIMARY KEY, FOREIGN KEY to buchtitel(ISBN)),
 AutorNr     INTEGER (PRIMARY KEY, FOREIGN KEY to tbl_03autor(autornr)
 );
