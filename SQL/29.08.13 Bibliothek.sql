@@ -35,3 +35,12 @@ ExNr INTEGER FOREING KEY,
 Ausleihdatum DATE,
 Rückgabedatum DATE,
 );
+
+drop table tbl_03bbuchtypautor
+create table tbl_03bbuchtypautor
+(
+
+  isbn                  INTEGER ,PRIMARY KEY , FOREIGN KEY to buchtitel(isbn)
+ 
+  autornr               INTEGER (PRIMARY KEY, FOREIGN KEY to tbl_03autor(autornr));
+  
