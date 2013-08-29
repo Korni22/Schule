@@ -29,10 +29,10 @@ Wohnort     Char (30),
 );
 
 CREATE Table tbl_07b_ausleihvorgang(
-AusleihNr INTEGER PRIMARY KEY,
-KundenNr INTEGER FOREIGN KEY,
-ExNr INTEGER FOREING KEY,
-Ausleihdatum DATE,
+AusleihNr     INTEGER   PRIMARY KEY,
+KundenNr      INTEGER   FOREIGN KEY,
+ExNr          INTEGER   FOREING KEY,
+Ausleihdatum  DATE,
 Rückgabedatum DATE,
 );
 
