@@ -1,12 +1,13 @@
---Übung(SQL-2 : DDL u. DML)
-USE DbLKap09; --Übungsdatenbabk auswählen
+ 
+use dblkap09
 
---*************************************************************************
---Übungsaufgabe 2
-DROP TABLE tbl_ueArtikel07b
+create table tbl_03bautor
 
-CREATE TABLE tbl_ueArtikel08b(
-Nr  INTEGER		PRIMARY KEY	IDENTITY(100,10),
-Nam	CHAR(3),
-Anzahl	INTEGER,
-);	
+(
+--Attributbezeichner -  Datentyp  - Funktion
+   autornr               INTEGER     PRIMARY KEY,
+   Name                 CHAR(35)    NOT NULL,
+   vorname                 CHAR(35),
+  geboren        date   ,
+  
+);
